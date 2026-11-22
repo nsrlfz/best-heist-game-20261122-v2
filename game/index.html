@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Gilded Vault — a museum heist</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #101623; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  #wrap { position: relative; width: 1280px; height: 800px; }
+  canvas { display: block; width: 1280px; height: 800px; border-radius: 10px;
+    box-shadow: 0 0 0 4px #d9a441, 0 18px 60px rgba(0, 0, 0, 0.7); }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="1280" height="800"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
